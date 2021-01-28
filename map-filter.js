@@ -25,11 +25,11 @@ const numbers=[3,4,5,3,6,7];
 
 // console.log(result);
 
-//filter will help to get seelected items
+//filter will help to get seelected items,retuen matching elements array
 // const bigger =numbers.filter(x => x>5);
 // console.log(bigger);//greater than 5
 
 //find is similar as filter only different in return
 
 const isThere =numbers.find(x=> x>5);
-console.log(isThere);//find return only one element, answer 6
+console.log(isThere);//find return Only the first matching element, answer 6
